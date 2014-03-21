@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SCB</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="additem">additem</string>
+	<string name="appglobalset">appglobalset</string>
+	<string name="appfctchoose">appfctchoose</string>
+	<string name="appsetchoose">appsetchoose</string>
+	<string name="updateitem">updateitem</string>
+	<string name="itemlistview">itemlistview</string>
+</resources>

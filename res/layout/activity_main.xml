@@ -1,0 +1,378 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+	<!-- 1 -->
+    <LinearLayout                            
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="8">
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="35dp" />
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+        <Button android:id="@+id/mon"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textSize="20sp"
+            android:background="#EBEBEB"
+            android:gravity="center"
+            android:layout_weight="1"/>
+        <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+         <Button android:id="@+id/thu"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:textSize="20sp"
+            android:background="#EBEBEB"
+            android:gravity="center"
+            android:layout_weight="1"/>
+         <!-- 
+  		<TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="#A9A9A9"
+            android:gravity="center"/>
+             -->
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+  <Button 	android:id="@+id/thr"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:text="3"
+      android:textSize="20sp"
+      android:background="#EBEBEB"
+      android:gravity="center"
+      android:layout_weight="1"/>
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+ <Button android:id="@+id/thur"
+     android:layout_width="fill_parent"
+     android:layout_height="match_parent"
+     android:text="4"
+     android:textSize="20sp"
+     android:background="#EBEBEB"
+     android:gravity="center"
+     android:layout_weight="1"/>
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+  <Button android:id="@+id/fit"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:text="5"
+      android:textSize="20sp"
+      android:background="#EBEBEB"
+      android:gravity="center"
+      android:layout_weight="1"/>
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+  <Button android:id="@+id/sat"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:text="6"
+      android:textSize="20sp"
+      android:background="#EBEBEB"
+      android:gravity="center"
+      android:layout_weight="1"/>
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+  <Button android:id="@+id/sun"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:text="7"
+      android:textSize="20sp"
+      android:background="#EBEBEB"
+      android:gravity="center"
+      android:layout_weight="1"/>
+  <LinearLayout 
+     android:layout_height="2dp"
+     android:layout_width="fill_parent"
+     android:background="#D1D1D1"
+     android:orientation="horizontal"></LinearLayout>
+  <Button android:id="@+id/operation"
+      android:layout_width="fill_parent"
+      android:layout_height="match_parent"
+      android:layout_weight="1"/>
+  </LinearLayout>                               <!-- 1 -->
+  
+	 <LinearLayout 
+	     android:layout_height="fill_parent"
+	     android:layout_width="2dp"
+	     android:background="#D1D1D1"
+	     android:orientation="vertical"></LinearLayout>
+	 <ScrollView android:fillViewport="true"
+	     android:layout_height="fill_parent"
+	     android:layout_width="match_parent"
+	     android:layout_weight="1">
+	     <LinearLayout android:layout_width="fill_parent"
+	         android:layout_height="fill_parent">
+	         
+	  
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_weight="1"
+	        android:orientation="vertical">
+	
+	        <TextView
+	            android:id="@+id/weekDay"
+	            android:layout_width="fill_parent"
+	            android:layout_height="35dp"
+	            android:gravity="center"
+	            android:paddingBottom="2dp"
+	            android:text="星期1" />
+	  <LinearLayout 
+	     android:layout_height="2dp"
+	     android:layout_width="fill_parent"
+	     android:background="#D1D1D1"
+	     android:orientation="horizontal"></LinearLayout>
+	  <LinearLayout android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:orientation="vertical">
+	      <LinearLayout android:layout_width="fill_parent"
+	          android:layout_height="match_parent"
+	          android:layout_weight="2"
+	          android:orientation="horizontal">
+	          <LinearLayout android:layout_height="fill_parent"
+	              android:layout_width="match_parent"
+	              android:layout_weight="5"
+	              android:orientation="vertical">
+	              <TextView android:gravity="center"
+	                  android:layout_width="fill_parent"
+	                  android:layout_height="fill_parent"
+	                  android:textDirection="rtl"
+	                  android:text="上午"/>"
+	          </LinearLayout>
+	          <LinearLayout android:layout_height="fill_parent"
+	              android:layout_width="1dp"
+	              android:background="#D1D1D1"
+	              android:orientation="horizontal"></LinearLayout>
+	          <LinearLayout android:layout_height="fill_parent"
+	              android:layout_width="match_parent"
+	              android:layout_weight="1"
+	              android:orientation="vertical">
+	              <LinearLayout android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                   >
+	                  <TextView android:gravity="center"
+	                  android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                  android:text="语文"/>
+	                  <Button android:id="@+id/csb1"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              </LinearLayout>
+	              <LinearLayout android:layout_height="1dp"
+	              android:layout_width="fill_parent"
+	              android:background="#D1D1D1"
+	              android:orientation="vertical"></LinearLayout>
+	              <LinearLayout android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                   >
+	                  <TextView android:gravity="center"
+	                  android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                  android:text="数学"/>
+	                  <Button android:id="@+id/csb2"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              </LinearLayout>
+	              <LinearLayout android:layout_height="1dp"
+	              android:layout_width="fill_parent"
+	              android:background="#D1D1D1"
+	              android:orientation="vertical"></LinearLayout>
+	              <LinearLayout android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                   >
+	                  <TextView android:gravity="center"
+	                  android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                  android:text="英语"/>
+	                  <Button android:id="@+id/csb3"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              </LinearLayout>
+	              <LinearLayout android:layout_height="1dp"
+	              android:layout_width="fill_parent"
+	              android:background="#D1D1D1"
+	              android:orientation="vertical"></LinearLayout>
+	              <LinearLayout android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                   >
+	                  <TextView android:gravity="center"
+	                  android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                  android:text="高数"/>
+	                  <Button android:id="@+id/csb4"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              </LinearLayout>
+	          </LinearLayout>
+	      </LinearLayout>
+	      <LinearLayout android:layout_height="1dp"
+              android:layout_width="fill_parent"
+              android:background="#D1D1D1"
+              android:orientation="vertical"></LinearLayout>
+      <LinearLayout android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="3"
+          android:orientation="horizontal"></LinearLayout>
+      <LinearLayout android:layout_height="1dp"
+              android:layout_width="fill_parent"
+              android:background="#D1D1D1"
+              android:orientation="vertical"></LinearLayout>
+      <LinearLayout android:layout_width="fill_parent"
+          android:layout_height="match_parent"
+          android:layout_weight="2"
+          android:orientation="horizontal">
+           <LinearLayout android:layout_height="fill_parent"
+              android:layout_width="match_parent"
+              android:layout_weight="5"
+              android:orientation="vertical">
+              <TextView android:gravity="center"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:textDirection="rtl"
+                  android:text="下午"/>"
+          </LinearLayout>
+          <LinearLayout android:layout_height="fill_parent"
+              android:layout_width="1dp"
+              android:background="#D1D1D1"
+              android:orientation="horizontal"></LinearLayout>
+          <LinearLayout android:layout_height="fill_parent"
+              android:layout_width="match_parent"
+              android:layout_weight="1"
+              android:orientation="vertical">
+
+             		  <LinearLayout android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1">
+	                  <TextView android:gravity="center"
+		                  android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1"
+		                  android:text="语文"/>
+	                  <Button android:id="@+id/csb5"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              	</LinearLayout>
+	              	<LinearLayout android:layout_height="1dp"
+			              android:layout_width="fill_parent"
+			              android:background="#D1D1D1"
+			              android:orientation="vertical"></LinearLayout>
+              		<LinearLayout android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1">
+	                  <TextView android:gravity="center"
+		                  android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1"
+		                  android:text="数学"/>
+	                  <Button android:id="@+id/csb6"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              	</LinearLayout>
+	              	<LinearLayout android:layout_height="1dp"
+			              android:layout_width="fill_parent"
+			              android:background="#D1D1D1"
+			              android:orientation="vertical"></LinearLayout>
+              		<LinearLayout android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1">
+	                  <TextView android:gravity="center"
+		                  android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1"
+		                  android:text="英语"/>
+	                  <Button android:id="@+id/csb7"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	                </LinearLayout>
+	              	<LinearLayout android:layout_height="1dp"
+		              android:layout_width="fill_parent"
+		              android:background="#D1D1D1"
+		              android:orientation="vertical"></LinearLayout>
+              		<LinearLayout android:layout_width="fill_parent"
+	                  android:layout_height="match_parent"
+	                  android:layout_weight="1"
+	                   >
+	                  <TextView android:gravity="center"
+		                  android:layout_width="fill_parent"
+		                  android:layout_height="match_parent"
+		                  android:layout_weight="1"
+		                  android:text="高数"/>
+	                  <Button android:id="@+id/csb8"
+	                      android:layout_width="match_parent"
+	                      android:layout_height="fill_parent"
+	                      android:layout_weight="6"
+	                      android:background="#828282"
+	                     />
+	              </LinearLayout>
+          </LinearLayout>
+      </LinearLayout>
+  	</LinearLayout>
+    </LinearLayout>
+       </LinearLayout>
+	 </ScrollView>
+</LinearLayout>
